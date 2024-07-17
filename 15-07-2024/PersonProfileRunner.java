@@ -77,5 +77,7 @@ public class PersonProfileRunner
         System.out.println("Annual Income: " +director.annualIncome);
         System.out.println("Gender: " +director.gender);
         System.out.println("Owns Car: " +director.ownsCar);
+		
+		new PersonProfile();
 	}
 }

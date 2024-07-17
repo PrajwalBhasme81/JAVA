@@ -18,6 +18,11 @@ public class Laptop
     int storageCapacity = 512;
     long macAddress = 123456789012L;
     boolean isSSD = true;
+	
+	public Laptop()
+	{
+		System.out.println("The Displaying a Laptop Details");
+	}
 }
 
  

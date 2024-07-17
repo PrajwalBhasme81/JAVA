@@ -2,6 +2,9 @@ public class BirdsRunner
 {
 	public static void main(String[] args)
 	{
+		
+		new Birds();
+		
 		Birds birds = new Birds();
 		System.out.println("Birds Name: "+birds.birdname);
 		System.out.println("Birds gender: "+birds.gender);
@@ -77,5 +80,6 @@ public class BirdsRunner
 		System.out.println("Birds size: "+mediumbirds.size+"inches");
 		System.out.println("Birds isnesting: "+mediumbirds.isnesting);
 		System.out.println("Birds eggLaid: "+mediumbirds.eggLaid);
+		
 	}
 }

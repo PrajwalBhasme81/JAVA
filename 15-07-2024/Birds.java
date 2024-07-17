@@ -17,5 +17,10 @@ public class Birds
 	public float size = 6.3f;
 	public boolean isnesting = true;
 	public int eggLaid = 4;
+	
+	public Birds()
+	{
+		System.out.println("The Bird is Sprrow");
+	}
 
 }

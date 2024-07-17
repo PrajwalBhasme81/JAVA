@@ -2,6 +2,8 @@ public class SmartphoneProfileRunner
 {
 	public static void main(String args[])
 	{
+		new SmartphoneProfile();
+		
 		SmartphoneProfile poco = new SmartphoneProfile();
 		System.out.println("Brand: " + poco.brand);
         System.out.println("Model: " + poco.model);

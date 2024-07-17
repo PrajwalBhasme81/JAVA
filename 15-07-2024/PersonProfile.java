@@ -17,4 +17,9 @@ public class PersonProfile
     double annualIncome = 4485000.00;
     char gender = 'M';
     boolean ownsCar = true;
+	
+	public PersonProfile()
+	{
+		System.out.println("The Displaying Person Profile");
+	}
 }

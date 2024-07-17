@@ -2,6 +2,8 @@ public class LaptopRunner
 {
 	public static void main(String args[])
 	{
+		new Laptop();
+		
 		Laptop infinix = new Laptop();
 		System.out.println("Brand: " + infinix.brand);
         System.out.println("Model: " + infinix.model);
